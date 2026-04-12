@@ -18,8 +18,8 @@ Looking for Students...(欢迎对计算机图形学、计算机辅助应急决�
 > I obtained my B.S. and Ph.D. from Hefei University of Technology (HFUT) in 2018 and 2023. My Ph.D. supervisor was Prof. Liping Zheng. I joined School of Public Safety and Emergency Management in Anhui University of Science & Technology (AUST) since Jul. 2023. My research interests include Computer Graphics, Computer Aided Geometric Design, and Emergency Management. 
 
 ## Eudcation and Work Experience
-> Lectureer, Anhui University of Science & Technology, 2023.07 - Now
-> Ph.D., Hefei University of Technology, 2018.09 - 2023.07, Supervisor: Liping Zheng
+> Lectureer, Anhui University of Science & Technology, 2023.07 - Now \ 
+> Ph.D., Hefei University of Technology, 2018.09 - 2023.07, Supervisor: Liping Zheng \ 
 > B.S., Hefei University of Technology, 2014.09 - 2018.06
 
 ## Research Interests
