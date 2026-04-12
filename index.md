@@ -1,4 +1,4 @@
-# Yuyou Yao
+# Yuyou Yao (姚裕友）
 > Lecture in School of Public Safety and Emergency Management
 > 
 > Anhui University of Science & Technology (AUST)
