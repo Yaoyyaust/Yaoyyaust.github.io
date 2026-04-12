@@ -31,14 +31,14 @@ Looking for Students...(欢迎对计算机图形学、计算机辅助应急决�
 
 ## Publications
 1. **Yuyou Yao***, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng. A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram[J]. Communications in Information and Systems, 2025, 25(1): 155-178.
-2. **Yuyou Yao**, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng*. PowerHierarchy: visualization approach of hierarchical data via power diagram[J]. The Visual Computer, 2024, 40(3): 1499-1514.
-3. Dongjun Zhu, Chengjie Gu, Junjun Zhang, **Yuyou Yao**, Dayu Tan. Global-Margin Uncertainty and Collaborative Sampling for Active Learning in Complex Aerial Images Object Detection[J]. IEEE Geoscience and Remote Sensing Letters, 2024, 21: 1-5.
-4. Jingjing Liu, **Yuyou Yao**, Yue Fei, Gaofeng Zhang, Liping Zheng*. Surface remeshing with preservation of sharp features through iterative identification and optimization of sample points[J]. Computers & Graphics, 2024, 121: 103949.
-5. **Yuyou Yao**, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong‐Ming Yan, Liping Zheng*. PowerRTF: Power diagram based restricted tangent face for surface remeshing[J]. Computer Graphics Forum, 2023, 42(5): e14897.
-6. **Yuyou Yao**, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng*. Accelerating surface remeshing through GPU-based computation of the restricted tangent face[J]. Computer Aided Geometric Design, 104: 102216.
-7. **Yuyou Yao**, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng*. Power diagram based algorithm for the facility location and capacity acquisition problem with dense demand[J]. Frontiers of Computer Science, 2022, 16(6): 166709.
-8. Tao Li, **Yuyou Yao**, Wenming Wu, Liping Zheng*. Pixelated Image Abstraction via Power Diagram[C]//Proceedings of 2022 Asian Simulation Conference, 2022: 60-74.
-9. Liping Zheng, **Yuyou Yao**, Wenming Wu, Benzhu Xu, Gaofeng Zhang*. A novel computation method of hybrid capacity constrained centroidal power diagram[J]. Computers & Graphics, 2021, 97: 108-116.
+3. **Yuyou Yao**, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng*. PowerHierarchy: visualization approach of hierarchical data via power diagram[J]. The Visual Computer, 2024, 40(3): 1499-1514.
+4. Dongjun Zhu, Chengjie Gu, Junjun Zhang, **Yuyou Yao**, Dayu Tan. Global-Margin Uncertainty and Collaborative Sampling for Active Learning in Complex Aerial Images Object Detection[J]. IEEE Geoscience and Remote Sensing Letters, 2024, 21: 1-5.
+5. Jingjing Liu, **Yuyou Yao**, Yue Fei, Gaofeng Zhang, Liping Zheng*. Surface remeshing with preservation of sharp features through iterative identification and optimization of sample points[J]. Computers & Graphics, 2024, 121: 103949.
+6. **Yuyou Yao**, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong‐Ming Yan, Liping Zheng*. PowerRTF: Power diagram based restricted tangent face for surface remeshing[J]. Computer Graphics Forum, 2023, 42(5): e14897.
+7. **Yuyou Yao**, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng*. Accelerating surface remeshing through GPU-based computation of the restricted tangent face[J]. Computer Aided Geometric Design, 104: 102216.
+8. **Yuyou Yao**, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng*. Power diagram based algorithm for the facility location and capacity acquisition problem with dense demand[J]. Frontiers of Computer Science, 2022, 16(6): 166709.
+9. Tao Li, **Yuyou Yao**, Wenming Wu, Liping Zheng*. Pixelated Image Abstraction via Power Diagram[C]//Proceedings of 2022 Asian Simulation Conference, 2022: 60-74.
+10. Liping Zheng, **Yuyou Yao**, Wenming Wu, Benzhu Xu, Gaofeng Zhang*. A novel computation method of hybrid capacity constrained centroidal power diagram[J]. Computers & Graphics, 2021, 97: 108-116.
 
 ## Projects
 1. 基于Power图的容量限制选址-分配-疏散算法研究，安徽理工大学校青年科技基金，2024.03-2026.03 （主持）
