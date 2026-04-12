@@ -1,5 +1,5 @@
 # Yuyou Yao (姚裕友）
-> Lecture in School of Public Safety and Emergency Management
+> Lecturer in School of Public Safety and Emergency Management
 > <br>Anhui University of Science & Technology (AUST)
 > 
 > <br>Room 309, Industry Education Integration Building
