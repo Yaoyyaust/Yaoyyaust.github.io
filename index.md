@@ -18,15 +18,15 @@ Looking for Students...(欢迎对计算机图形学、计算机辅助应急决�
 > <br>B.S., Hefei University of Technology, 2014.09 - 2018.06
 
 ## Research Interests
-1. Computer Graphics
-2. Computer Aided Geometric Design
-3. Emergency Management
+> Computer Graphics
+> <br>Computer Aided Geometric Design
+> <br>Emergency Management
 
 ## Teaching
-1. 《C语言程序设计》
-2. 《应急管理信息系统》
-3. 《信息安全》
-4. 《创新创业》
+> 《C语言程序设计》
+> <br>《应急管理信息系统》
+> <br>《信息安全》
+> <br>《创新创业》
 
 ## Publications
 1. **Yuyou Yao***, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng. A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram[J]. Communications in Information and Systems, 2025, 25(1): 155-178.
