@@ -1,6 +1,11 @@
 # Yuyou Yao
+Lecture in School of Public Safety and Emergency Management
+Anhui University of Science & Technology (AUST)
 
-
+Room 309, Industry Education Integration Building
+Hefei Campus, Anhui University of Science & Technology (AUST)
+Hefei, Anhui, 231131, China
+E-mail: yaoyy@aust.edu.cn
 
 
 
