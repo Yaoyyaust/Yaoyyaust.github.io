@@ -60,7 +60,7 @@ title: Yuyou Yao
 
 <div class="profile-container">
 
-<img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Yuyou Yao" class="profile-photo">
+<img src="{{ '/assets/img/yaoyy.jpg' | relative_url }}" alt="Yuyou Yao" class="profile-photo">
 
 <div class="profile-info">
 
