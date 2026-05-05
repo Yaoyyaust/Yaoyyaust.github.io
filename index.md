@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Yuyou Yao
 description: Computer Graphics · Power Diagram · Emergency Management
 ---
