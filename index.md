@@ -70,7 +70,7 @@ description: Lecturer, Anhui University of Science & Technology
 
 <div class="profile-header">
 
-<img src="/assets/images/yaoyy.jpg" alt="Yuyou Yao" class="profile-photo">
+<img src="{{ '/assets/img/yaoyy.jpg' | relative_url }}" alt="Yuyou Yao" class="profile-photo">
 
 <div class="profile-info">
 
