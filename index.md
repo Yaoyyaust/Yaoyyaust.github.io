@@ -184,14 +184,12 @@ description: Lecturer, Anhui University of Science & Technology
       <h1>Yuyou Yao（姚裕友）</h1>
 
       <p><strong>Lecturer</strong></p>
-      <p>School of Public Safety and Emergency Management</p>
-      <p>Anhui University of Science &amp; Technology</p>
+      <p>School of Public Safety and Emergency Management, Anhui University of Science &amp; Technology</p>
 
       <br>
 
       <p><strong>Master’s Supervisor</strong></p>
-      <p>School of Computer Science and Engineering</p>
-      <p>Anhui University of Science &amp; Technology</p>
+      <p>School of Computer Science and Engineering, Anhui University of Science &amp; Technology</p>
 
       <br>
 
