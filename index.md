@@ -287,6 +287,7 @@ description: Lecturer, Anhui University of Science & Technology
         <em>The Visual Computer</em>, 2024, 40(3): 1499–1514.
         <span class="pub-links">
           <a href="{{ '/assets/publications/2024-tvc-powerhierarchy/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="https://link.springer.com/article/10.1007/s00371-023-02864-4" target="_blank" rel="noopener">[video]</a>
         </span>
       </li>
 
@@ -314,6 +315,7 @@ description: Lecturer, Anhui University of Science & Technology
         <em>Computer Graphics Forum</em>, 2023, 42(5): e14897.
         <span class="pub-links">
           <a href="{{ '/assets/publications/2023-cgf-powerrtf/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14897" target="_blank" rel="noopener">[video]</a>
         </span>
       </li>
 
