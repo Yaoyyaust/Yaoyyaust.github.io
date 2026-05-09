@@ -386,6 +386,21 @@ description: Lecturer, Anhui University of Science & Technology
     </ol>
   </div>
 
+  <div class="section" id="graduate-students">
+    <h2>Graduate Students</h2>
+    <p>
+      I supervise graduate student in the areas of computer graphics, computer aided geometric design, and computer-aided emergency decision-making.
+    </p>
+    
+    <h3>Master Students</h3>
+
+    <ul class="student-list">
+      <li>
+        <strong>2025</strong>: 夏守岩
+      </li>
+    </ul>
+  </div>
+
   <div class="section" id="projects">
     <h2>Projects</h2>
 
@@ -434,16 +449,13 @@ description: Lecturer, Anhui University of Science & Technology
 
     <ul class="student-list">
       <li>
-        智绘选址——基于Power图的应急设施选址优化领航者，国家级，2025<br>
-        项目负责人：柯卓彦
+        智绘选址——基于Power图的应急设施选址优化领航者，国家级，2025 (项目负责人：柯卓彦)
       </li>
       <li>
-        智安逸行——城市应急疏散智能规划先锋，省级，2025<br>
-        项目负责人：刘博宁
+        智安逸行——城市应急疏散智能规划先锋，省级，2025 (项目负责人：刘博宁)
       </li>
       <li>
-        基于Power图的多状态障碍耦合环境应急逃生引导方法研究，省级，2024<br>
-        项目负责人：钟嘉浩
+        基于Power图的多状态障碍耦合环境应急逃生引导方法研究，省级，2024 (项目负责人：钟嘉浩)
       </li>
     </ul>
 
