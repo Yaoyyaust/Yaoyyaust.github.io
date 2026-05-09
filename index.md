@@ -199,8 +199,7 @@ description: Lecturer, Anhui University of Science & Technology
     <p>
       I am looking for motivated students interested in
       <strong>Computer Graphics</strong>,
-      <strong>Computer Aided Geometric Design</strong>,
-      <strong>Power Diagrams</strong>, and
+      <strong>Computer Aided Geometric Design</strong>, and
       <strong>Computer-Aided Emergency Decision-Making</strong>.
     </p>
     <p>
@@ -235,10 +234,6 @@ description: Lecturer, Anhui University of Science & Technology
     <ul class="research-list">
       <li>Computer Graphics</li>
       <li>Computer Aided Geometric Design</li>
-      <li>Computational Geometry</li>
-      <li>Power Diagrams and Voronoi Diagrams</li>
-      <li>Emergency Facility Location and Allocation</li>
-      <li>Emergency Evacuation and Path Planning</li>
       <li>Computer-Aided Emergency Decision-Making</li>
     </ul>
   </div>
