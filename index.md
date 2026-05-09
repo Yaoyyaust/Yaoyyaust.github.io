@@ -117,7 +117,7 @@ description: Lecturer, Anhui University of Science & Technology
 .pub-item {
   counter-increment: pub-counter;
   list-style: none;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
   padding-left: 34px;
   position: relative;
 }
@@ -133,10 +133,6 @@ description: Lecturer, Anhui University of Science & Technology
 
 .pub-title {
   font-weight: normal;
-}
-
-.pub-venue {
-  font-style: italic;
 }
 
 .pub-links {
@@ -171,6 +167,10 @@ description: Lecturer, Anhui University of Science & Technology
   .profile-photo {
     width: 180px;
   }
+
+  .pub-links {
+    white-space: normal;
+  }
 }
 </style>
 
@@ -184,12 +184,14 @@ description: Lecturer, Anhui University of Science & Technology
       <h1>Yuyou Yao（姚裕友）</h1>
 
       <p><strong>Lecturer</strong></p>
-      <p>School of Public Safety and Emergency Management, Anhui University of Science &amp; Technology</p>
+      <p>School of Public Safety and Emergency Management</p>
+      <p>Anhui University of Science &amp; Technology</p>
 
       <br>
 
       <p><strong>Master’s Supervisor</strong></p>
-      <p>School of Computer Science and Engineering, Anhui University of Science &amp; Technology</p>
+      <p>School of Computer Science and Engineering</p>
+      <p>Anhui University of Science &amp; Technology</p>
 
       <br>
 
@@ -275,7 +277,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram.</span>
         <em>Communications in Information and Systems</em>, 2025, 25(1): 155–178.
         <span class="pub-links">
-          <a href="https://doi.org/10.4310/CIS.250430222214" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2025-cis-mccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2025-cis-mccpd/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2025-cis-mccpd/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -284,7 +288,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">PowerHierarchy: visualization approach of hierarchical data via power diagram.</span>
         <em>The Visual Computer</em>, 2024, 40(3): 1499–1514.
         <span class="pub-links">
-          <a href="https://wutomwu.github.io/publications/2024-PowerHierarchy/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2024-tvc-powerhierarchy/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2024-tvc-powerhierarchy/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2024-tvc-powerhierarchy/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -293,7 +299,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">Global-Margin Uncertainty and Collaborative Sampling for Active Learning in Complex Aerial Images Object Detection.</span>
         <em>IEEE Geoscience and Remote Sensing Letters</em>, 2024, 21: 1–5.
         <span class="pub-links">
-          <a href="https://doi.org/10.1109/LGRS.2024.3373038" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2024-lgrs-activelearning/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2024-lgrs-activelearning/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2024-lgrs-activelearning/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -302,7 +310,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">Surface remeshing with preservation of sharp features through iterative identification and optimization of sample points.</span>
         <em>Computers &amp; Graphics</em>, 2024, 121: 103949.
         <span class="pub-links">
-          <a href="https://doi.org/10.1016/j.cag.2024.103949" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2024-cag-sharpfeatures/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2024-cag-sharpfeatures/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2024-cag-sharpfeatures/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -311,8 +321,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">PowerRTF: Power diagram based restricted tangent face for surface remeshing.</span>
         <em>Computer Graphics Forum</em>, 2023, 42(5): e14897.
         <span class="pub-links">
-          <a href="https://wutomwu.github.io/publications/2023-PowerRTF/paper.pdf" target="_blank" rel="noopener">[paper]</a>
-          <a href="https://wutomwu.github.io/publications/2023-PowerRTF/video.mp4" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2023-cgf-powerrtf/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2023-cgf-powerrtf/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2023-cgf-powerrtf/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -321,7 +332,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">Accelerating surface remeshing through GPU-based computation of the restricted tangent face.</span>
         <em>Computer Aided Geometric Design</em>, 2023, 104: 102216.
         <span class="pub-links">
-          <a href="https://wutomwu.github.io/publications/2023-RemeshingRTF/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2023-cagd-rtf/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2023-cagd-rtf/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2023-cagd-rtf/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -330,8 +343,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">Power diagram based algorithm for the facility location and capacity acquisition problem with dense demand.</span>
         <em>Frontiers of Computer Science</em>, 2022, 16(6): 166709.
         <span class="pub-links">
-          <a href="https://wutomwu.github.io/publications/2022-PowerDiagram/paper.pdf" target="_blank" rel="noopener">[paper]</a>
-          <a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs11704-022-0582-2/MediaObjects/11704_2022_582_MOESM1_ESM.pdf" target="_blank" rel="noopener">[supplementary]</a>
+          <a href="{{ '/assets/publications/2022-fcs-powerlap/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2022-fcs-powerlap/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2022-fcs-powerlap/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -340,7 +354,9 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">Pixelated Image Abstraction via Power Diagram.</span>
         <em>Proceedings of 2022 Asian Simulation Conference</em>, 2022: 60–74.
         <span class="pub-links">
-          <a href="https://doi.org/10.1007/978-981-19-9195-0_6" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2022-asiansim-powerpixlated/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2022-asiansim-powerpixlated/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2022-asiansim-powerpixlated/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
@@ -349,7 +365,42 @@ description: Lecturer, Anhui University of Science & Technology
         <span class="pub-title">A novel computation method of hybrid capacity constrained centroidal power diagram.</span>
         <em>Computers &amp; Graphics</em>, 2021, 97: 108–116.
         <span class="pub-links">
-          <a href="https://wutomwu.github.io/publications/2021-HCCCPD/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2021-cag-hcccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2021-cag-hcccpd/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2021-cag-hcccpd/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
+        </span>
+      </li>
+
+      <li class="pub-item">
+        <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平.
+        <span class="pub-title">变容量限制质心Power图的计算.</span>
+        <em>图学学报</em>, 2021, 42(3): 492–500.
+        <span class="pub-links">
+          <a href="{{ '/assets/publications/2021-jog-vcccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2021-jog-vcccpd/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2021-jog-vcccpd/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
+        </span>
+      </li>
+
+      <li class="pub-item">
+        桂志强, <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平.
+        <span class="pub-title">3D-Power图的快速生成方法.</span>
+        <em>浙江大学学报（理学版）</em>, 2021, 48(4): 410–417.
+        <span class="pub-links">
+          <a href="{{ '/assets/publications/2021-zjtu-3dpower/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2021-zjtu-3dpower/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2021-zjtu-3dpower/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
+        </span>
+      </li>
+
+      <li class="pub-item">
+        费月, 桂志强, <strong>姚裕友</strong>, 徐本柱, 郑利平<sup>*</sup>.
+        <span class="pub-title">面状LED发光体灯珠分布和组合连接优化算法.</span>
+        <em>系统仿真学报</em>, 2020, 32(12): 2317–2323.
+        <span class="pub-links">
+          <a href="{{ '/assets/publications/2020-jos-powerled/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+          <a href="{{ '/assets/publications/2020-jos-powerled/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+          <a href="{{ '/assets/publications/2020-jos-powerled/supplementary.pdf' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
         </span>
       </li>
 
