@@ -463,8 +463,7 @@ description: Lecturer, Anhui University of Science & Technology
 
     <ul class="student-list">
       <li>
-        中国国际大学生创新大赛，2025，省级银奖<br>
-        项目负责人：刘博宁
+        中国国际大学生创新大赛，2025，省级银奖 (项目负责人：刘博宁)
       </li>
     </ul>
   </div>
