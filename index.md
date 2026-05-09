@@ -182,23 +182,21 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="profile-info">
       <h1>Yuyou Yao（姚裕友）</h1>
-
-      <p><strong>Lecturer</strong></p>
+    
+      <p>
+        <strong>Lecturer</strong> | <strong>Master’s Supervisor</strong>
+      </p>
+    
       <p>School of Public Safety and Emergency Management</p>
-      <p>Anhui University of Science &amp; Technology</p>
-
-      <br>
-
-      <p><strong>Master’s Supervisor</strong></p>
       <p>School of Computer Science and Engineering</p>
       <p>Anhui University of Science &amp; Technology</p>
-
+    
       <br>
-
+    
       <p>Room 309, Industry Education Integration Building</p>
       <p>Hefei Campus, Anhui University of Science &amp; Technology</p>
       <p>Hefei, Anhui, 231131, China</p>
-
+    
       <p><strong>Email:</strong> <a href="mailto:yaoyy@aust.edu.cn">yaoyy@aust.edu.cn</a></p>
     </div>
 
