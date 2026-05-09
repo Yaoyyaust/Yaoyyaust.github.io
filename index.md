@@ -169,7 +169,7 @@ description: Lecturer, Anhui University of Science & Technology
 
   <div class="profile-header">
 
-    <img src="{{ '/assets/img/yaoyy.jpg' | relative_url }}" alt="Yuyou Yao" class="profile-photo">
+    <img src="{{ '/assets/images/yaoyy.jpg' | relative_url }}" alt="Yuyou Yao" class="profile-photo">
 
     <div class="profile-info">
       <h1>Yuyou Yao（姚裕友）</h1>
