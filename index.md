@@ -46,12 +46,12 @@ description: Lecturer, Anhui University of Science & Technology
   margin: 4px 0;
 }
 
-.profile-info a {
+.profile-page a {
   color: #1f5f9f;
   text-decoration: none;
 }
 
-.profile-info a:hover {
+.profile-page a:hover {
   text-decoration: underline;
 }
 
@@ -117,7 +117,7 @@ description: Lecturer, Anhui University of Science & Technology
 .pub-item {
   counter-increment: pub-counter;
   list-style: none;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   padding-left: 34px;
   position: relative;
 }
@@ -132,11 +132,20 @@ description: Lecturer, Anhui University of Science & Technology
 }
 
 .pub-title {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .pub-venue {
   font-style: italic;
+}
+
+.pub-links {
+  white-space: nowrap;
+}
+
+.pub-links a {
+  margin-left: 6px;
+  font-size: 0.95em;
 }
 
 .project-item {
@@ -203,7 +212,7 @@ description: Lecturer, Anhui University of Science & Technology
       <strong>Computer-Aided Emergency Decision-Making</strong>.
     </p>
     <p>
-      欢迎对<strong>计算机图形学、计算机辅助几何设计、Power 图、应急设施选址分配、应急疏散与智能应急决策</strong>等方向感兴趣的同学加入。
+      欢迎对<strong>计算机图形学、计算机辅助几何设计、计算机辅助应急决策</strong>等方向感兴趣的同学加入。
     </p>
   </div>
 
@@ -219,9 +228,9 @@ description: Lecturer, Anhui University of Science & Technology
     </p>
 
     <p>
-      My research interests include <strong>Computer Graphics</strong>,
+      My research interests mainly focus on <strong>Computer Graphics</strong>,
       <strong>Computer Aided Geometric Design</strong>, and
-      <strong>Emergency Management</strong>.
+      <strong>Computer-Aided Emergency Decision-Making</strong>.
       I am particularly interested in computational geometry-based modeling and optimization methods,
       especially <strong>Power diagram-based algorithms</strong> and their applications in facility location,
       capacity-constrained allocation, emergency evacuation, and intelligent emergency decision-making.
@@ -264,57 +273,86 @@ description: Lecturer, Anhui University of Science & Technology
     <ol class="pub-list">
 
       <li class="pub-item">
-        Yuyou Yao<sup>*</sup>, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng.
+        <strong>Yuyou Yao</strong><sup>*</sup>, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng.
         <span class="pub-title">A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram.</span>
-        <span class="pub-venue">Communications in Information and Systems</span>, 2025, 25(1): 155–178.
+        <em>Communications in Information and Systems</em>, 2025, 25(1): 155–178.
+        <span class="pub-links">
+          <a href="https://doi.org/10.4310/CIS.250430222214" target="_blank" rel="noopener">[paper]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Yuyou Yao, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng<sup>*</sup>.
         <span class="pub-title">PowerHierarchy: visualization approach of hierarchical data via power diagram.</span>
-        <span class="pub-venue">The Visual Computer</span>, 2024, 40(3): 1499–1514.
+        <em>The Visual Computer</em>, 2024, 40(3): 1499–1514.
+        <span class="pub-links">
+          <a href="https://wutomwu.github.io/publications/2024-PowerHierarchy/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Dongjun Zhu, Chengjie Gu, Junjun Zhang, Yuyou Yao, Dayu Tan.
+        Dongjun Zhu, Chengjie Gu, Junjun Zhang, <strong>Yuyou Yao</strong>, Dayu Tan.
         <span class="pub-title">Global-Margin Uncertainty and Collaborative Sampling for Active Learning in Complex Aerial Images Object Detection.</span>
-        <span class="pub-venue">IEEE Geoscience and Remote Sensing Letters</span>, 2024, 21: 1–5.
+        <em>IEEE Geoscience and Remote Sensing Letters</em>, 2024, 21: 1–5.
+        <span class="pub-links">
+          <a href="https://doi.org/10.1109/LGRS.2024.3373038" target="_blank" rel="noopener">[paper]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Jingjing Liu, Yuyou Yao, Yue Fei, Gaofeng Zhang, Liping Zheng<sup>*</sup>.
+        Jingjing Liu, <strong>Yuyou Yao</strong>, Yue Fei, Gaofeng Zhang, Liping Zheng<sup>*</sup>.
         <span class="pub-title">Surface remeshing with preservation of sharp features through iterative identification and optimization of sample points.</span>
-        <span class="pub-venue">Computers &amp; Graphics</span>, 2024, 121: 103949.
+        <em>Computers &amp; Graphics</em>, 2024, 121: 103949.
+        <span class="pub-links">
+          <a href="https://doi.org/10.1016/j.cag.2024.103949" target="_blank" rel="noopener">[paper]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Yuyou Yao, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong-Ming Yan, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong-Ming Yan, Liping Zheng<sup>*</sup>.
         <span class="pub-title">PowerRTF: Power diagram based restricted tangent face for surface remeshing.</span>
-        <span class="pub-venue">Computer Graphics Forum</span>, 2023, 42(5): e14897.
+        <em>Computer Graphics Forum</em>, 2023, 42(5): e14897.
+        <span class="pub-links">
+          <a href="https://wutomwu.github.io/publications/2023-PowerRTF/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+          <a href="https://wutomwu.github.io/publications/2023-PowerRTF/video.mp4" target="_blank" rel="noopener">[video]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Yuyou Yao, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>*</sup>.
         <span class="pub-title">Accelerating surface remeshing through GPU-based computation of the restricted tangent face.</span>
-        <span class="pub-venue">Computer Aided Geometric Design</span>, 104: 102216.
+        <em>Computer Aided Geometric Design</em>, 2023, 104: 102216.
+        <span class="pub-links">
+          <a href="https://wutomwu.github.io/publications/2023-RemeshingRTF/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Yuyou Yao, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>*</sup>.
         <span class="pub-title">Power diagram based algorithm for the facility location and capacity acquisition problem with dense demand.</span>
-        <span class="pub-venue">Frontiers of Computer Science</span>, 2022, 16(6): 166709.
+        <em>Frontiers of Computer Science</em>, 2022, 16(6): 166709.
+        <span class="pub-links">
+          <a href="https://wutomwu.github.io/publications/2022-PowerDiagram/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+          <a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs11704-022-0582-2/MediaObjects/11704_2022_582_MOESM1_ESM.pdf" target="_blank" rel="noopener">[supplementary]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Tao Li, Yuyou Yao, Wenming Wu, Liping Zheng<sup>*</sup>.
+        Tao Li, <strong>Yuyou Yao</strong>, Wenming Wu, Liping Zheng<sup>*</sup>.
         <span class="pub-title">Pixelated Image Abstraction via Power Diagram.</span>
-        <span class="pub-venue">Proceedings of 2022 Asian Simulation Conference</span>, 2022: 60–74.
+        <em>Proceedings of 2022 Asian Simulation Conference</em>, 2022: 60–74.
+        <span class="pub-links">
+          <a href="https://doi.org/10.1007/978-981-19-9195-0_6" target="_blank" rel="noopener">[paper]</a>
+        </span>
       </li>
 
       <li class="pub-item">
-        Liping Zheng, Yuyou Yao, Wenming Wu, Benzhu Xu, Gaofeng Zhang<sup>*</sup>.
+        Liping Zheng, <strong>Yuyou Yao</strong>, Wenming Wu, Benzhu Xu, Gaofeng Zhang<sup>*</sup>.
         <span class="pub-title">A novel computation method of hybrid capacity constrained centroidal power diagram.</span>
-        <span class="pub-venue">Computers &amp; Graphics</span>, 2021, 97: 108–116.
+        <em>Computers &amp; Graphics</em>, 2021, 97: 108–116.
+        <span class="pub-links">
+          <a href="https://wutomwu.github.io/publications/2021-HCCCPD/paper.pdf" target="_blank" rel="noopener">[paper]</a>
+        </span>
       </li>
 
     </ol>
