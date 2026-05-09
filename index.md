@@ -35,6 +35,11 @@ description: Lecturer, Anhui University of Science & Technology
   flex: 1;
 }
 
+.profile-position {
+  font-size: 1.05em;
+  margin-bottom: 8px;
+}
+
 .profile-info h1 {
   margin: 0 0 12px 0;
   font-size: 2.2em;
@@ -183,8 +188,8 @@ description: Lecturer, Anhui University of Science & Technology
     <div class="profile-info">
       <h1>Yuyou Yao（姚裕友）</h1>
     
-      <p>
-        <strong>Lecturer</strong> | <strong>Master’s Supervisor</strong>
+      <p class="profile-position">
+        <strong>Lecturer</strong> | <strong>Master's Supervisor</strong>
       </p>
     
       <p>School of Public Safety and Emergency Management</p>
