@@ -276,7 +276,7 @@ description: Lecturer, Anhui University of Science & Technology
     <ol class="pub-list">
 
       <li class="pub-item">
-        <strong>Yuyou Yao</strong><sup>*</sup>, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng.
+        <strong>Yuyou Yao</strong><sup>#</sup>, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng.
         <span class="pub-title">A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram.</span>
         <em>Communications in Information and Systems</em>, 2025, 25(1): 155–178.
         <span class="pub-links">
@@ -285,7 +285,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng<sup>#</sup>.
         <span class="pub-title">PowerHierarchy: visualization approach of hierarchical data via power diagram.</span>
         <em>The Visual Computer</em>, 2024, 40(3): 1499–1514.
         <span class="pub-links">
@@ -304,7 +304,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        Jingjing Liu, <strong>Yuyou Yao</strong>, Yue Fei, Gaofeng Zhang, Liping Zheng<sup>*</sup>.
+        Jingjing Liu, <strong>Yuyou Yao</strong>, Yue Fei, Gaofeng Zhang, Liping Zheng<sup>#</sup>.
         <span class="pub-title">Surface remeshing with preservation of sharp features through iterative identification and optimization of sample points.</span>
         <em>Computers &amp; Graphics</em>, 2024, 121: 103949.
         <span class="pub-links">
@@ -313,7 +313,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong-Ming Yan, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong-Ming Yan, Liping Zheng<sup>#</sup>.
         <span class="pub-title">PowerRTF: Power diagram based restricted tangent face for surface remeshing.</span>
         <em>Computer Graphics Forum</em>, 2023, 42(5): e14897.
         <span class="pub-links">
@@ -323,7 +323,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>#</sup>.
         <span class="pub-title">Accelerating surface remeshing through GPU-based computation of the restricted tangent face.</span>
         <em>Computer Aided Geometric Design</em>, 2023, 104: 102216.
         <span class="pub-links">
@@ -332,7 +332,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>*</sup>.
+        <strong>Yuyou Yao</strong>, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>#</sup>.
         <span class="pub-title">Power diagram based algorithm for the facility location and capacity acquisition problem with dense demand.</span>
         <em>Frontiers of Computer Science</em>, 2022, 16(6): 166709.
         <span class="pub-links">
@@ -342,7 +342,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        Tao Li, <strong>Yuyou Yao</strong>, Wenming Wu, Liping Zheng<sup>*</sup>.
+        Tao Li, <strong>Yuyou Yao</strong>, Wenming Wu, Liping Zheng<sup>#</sup>.
         <span class="pub-title">Pixelated Image Abstraction via Power Diagram.</span>
         <em>Proceedings of 2022 Asian Simulation Conference</em>, 2022: 60–74.
         <span class="pub-links">
@@ -351,7 +351,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        Liping Zheng, <strong>Yuyou Yao</strong>, Wenming Wu, Benzhu Xu, Gaofeng Zhang<sup>*</sup>.
+        Liping Zheng, <strong>Yuyou Yao</strong>, Wenming Wu, Benzhu Xu, Gaofeng Zhang<sup>#</sup>.
         <span class="pub-title">A novel computation method of hybrid capacity constrained centroidal power diagram.</span>
         <em>Computers &amp; Graphics</em>, 2021, 97: 108–116.
         <span class="pub-links">
@@ -360,7 +360,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平.
+        <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>.
         <span class="pub-title">变容量限制质心Power图的计算.</span>
         <em>图学学报</em>, 2021, 42(3): 492–500.
         <span class="pub-links">
@@ -369,7 +369,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        桂志强, <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平.
+        桂志强, <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>.
         <span class="pub-title">3D-Power图的快速生成方法.</span>
         <em>浙江大学学报（理学版）</em>, 2021, 48(4): 410–417.
         <span class="pub-links">
@@ -378,7 +378,7 @@ description: Lecturer, Anhui University of Science & Technology
       </li>
 
       <li class="pub-item">
-        费月, 桂志强, <strong>姚裕友</strong>, 徐本柱, 郑利平<sup>*</sup>.
+        费月, 桂志强, <strong>姚裕友</strong>, 徐本柱, 郑利平<sup>#</sup>.
         <span class="pub-title">面状LED发光体灯珠分布和组合连接优化算法.</span>
         <em>系统仿真学报</em>, 2020, 32(12): 2317–2323.
         <span class="pub-links">
