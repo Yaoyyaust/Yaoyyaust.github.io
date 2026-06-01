@@ -276,6 +276,15 @@ description: Lecturer, Anhui University of Science & Technology
     <ol class="pub-list">
 
       <li class="pub-item">
+        Dongyue Zhao, Qian Chen, <strong>Yuyou Yao</strong>, Yunhe Tong<sup>#</sup>.
+        <span class="pub-title">A Candidate-Free Location Optimization Framework for Gas Repair Stations Under Stochastic Road Resistance Conditions.</span>
+        <em>Urban Science</em>, 2026, 10(6): 303.
+        <span class="pub-links">
+          <a href="{{ '/assets/publications/2026-uc-location/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+        </span>
+      </li>
+
+      <li class="pub-item">
         <strong>Yuyou Yao</strong><sup>#</sup>, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng.
         <span class="pub-title">A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram.</span>
         <em>Communications in Information and Systems</em>, 2025, 25(1): 155–178.
