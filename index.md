@@ -448,6 +448,7 @@ description: Lecturer, Anhui University of Science & Technology
 
     <ul class="teaching-list">
       <li>《应急管理信息系统》</li>
+      <li>《C语言程序设计》</li>
       <li>《信息安全》</li>
     </ul>
   </div>
