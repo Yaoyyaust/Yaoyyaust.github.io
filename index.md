@@ -276,6 +276,15 @@ description: Lecturer, Anhui University of Science & Technology
     <ol class="pub-list">
 
       <li class="pub-item">
+        Yue Fei, Jingjing Liu, <strong>Yuyou Yao</strong>, Yusheng Peng, Liping Zheng<sup>#</sup>.
+        <span class="pub-title">A Remeshing Method via Adaptive Multiple Original-Facet-Clipping and Centroidal Voronoi Tessellation.</span>
+        <em>2026 International Conference on 3D Vision (3DV)</em>, 2026, 1588-1597.
+        <span class="pub-links">
+          <a href="{{ '/assets/publications/2026-3dv-remeshing/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+        </span>
+      </li>
+
+      <li class="pub-item">
         Dongyue Zhao, Qian Chen, <strong>Yuyou Yao</strong>, Yunhe Tong<sup>#</sup>.
         <span class="pub-title">A Candidate-Free Location Optimization Framework for Gas Repair Stations Under Stochastic Road Resistance Conditions.</span>
         <em>Urban Science</em>, 2026, 10(6): 303.
