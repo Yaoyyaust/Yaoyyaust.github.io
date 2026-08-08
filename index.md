@@ -164,6 +164,17 @@ description: Lecturer, Anhui University of Science & Technology
   margin: 5px 0;
 }
 
+.student-name {
+  display: inline-block;
+  width: 5em;
+  text-align: left;
+  margin-right: 0.8em;
+}
+
+.student-name.two-char {
+  letter-spacing: 1em;
+}
+
 @media (max-width: 720px) {
   .profile-header {
     flex-direction: column;
@@ -417,10 +428,14 @@ description: Lecturer, Anhui University of Science & Technology
 
     <ul class="student-list">
       <li>
-        <strong>2025</strong>: 夏守岩
+        <strong>2025</strong>: 
+        <span class="student-name">夏守岩</span>
       </li>
       <li>
-        <strong>2026</strong>: 魏  杭    段金亮    蓝  瑞
+        <strong>2026</strong>: 
+        <span class="student-name two-char">魏杭</span>
+        <span class="student-name">段金亮</span>
+        <span class="student-name two-char">蓝瑞</span>
       </li>
     </ul>
   </div>
