@@ -419,6 +419,9 @@ description: Lecturer, Anhui University of Science & Technology
       <li>
         <strong>2025</strong>: 夏守岩
       </li>
+      <li>
+        <strong>2026</strong>: 魏  杭    段金亮    蓝  瑞
+      </li>
     </ul>
   </div>
 
