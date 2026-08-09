@@ -286,6 +286,12 @@ description: Lecturer, Anhui University of Science & Technology
 
     <ol class="pub-list">
 
+      <li>
+        <strong>Yuyou Yao</strong><sup>#</sup>, Shouyan Xia, Ensheng Liu, Chengjie Gu. 
+        <span class="pub-title">Network Power Diagrams with Maximum-Capacity Constraints for Embedded Network Partitioning.</span>
+        <em>Computers & Graphics</em>, 2026. (Accepted)
+      </li>
+
       <li class="pub-item">
         Yue Fei, Jingjing Liu, <strong>Yuyou Yao</strong>, Yusheng Peng, Liping Zheng<sup>#</sup>.
         <span class="pub-title">A Remeshing Method via Adaptive Multiple Original-Facet-Clipping and Centroidal Voronoi Tessellation.</span>
