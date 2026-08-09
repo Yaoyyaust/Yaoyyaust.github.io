@@ -286,7 +286,7 @@ description: Lecturer, Anhui University of Science & Technology
 
     <ol class="pub-list">
 
-      <li>
+      <li class="pub-item">
         <strong>Yuyou Yao</strong><sup>#</sup>, Shouyan Xia, Ensheng Liu, Chengjie Gu. 
         <span class="pub-title">Network Power Diagrams with Maximum-Capacity Constraints for Embedded Network Partitioning.</span>
         <em>Computers & Graphics</em>, 2026. (Accepted)
