@@ -114,99 +114,91 @@ description: Lecturer, Anhui University of Science & Technology
   color: #111;
 }
 
-.pub-list {
-  counter-reset: pub-counter;
-  padding-left: 0;
-}
-
-.pub-item {
-  counter-increment: pub-counter;
-  list-style: none;
-  margin-bottom: 18px;
-  padding-left: 34px;
-  position: relative;
-}
-
-.pub-item::before {
-  content: "[" counter(pub-counter) "]";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-weight: bold;
-  color: #111;
-}
-
-.pub-title {
-  font-weight: normal;
-}
-
-.pub-links {
-  white-space: nowrap;
-}
-
-.pub-links a {
-  margin-left: 6px;
-  font-size: 0.95em;
-}
-
-.publication-item {
-  display: flex;
+.yy-publication {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  column-gap: 28px;
   align-items: center;
-  gap: 24px;
   margin-bottom: 34px;
 }
 
-.publication-image {
-  flex: 0 0 245px;
-  width: 245px;
-  text-align: center;
+.yy-publication-teaser {
+  width: 230px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.publication-image img {
-  width: 100%;
-  max-height: 180px;
+.yy-publication-teaser img {
+  display: block;
+  max-width: 100%;
+  max-height: 170px;
+  width: auto;
+  height: auto;
   object-fit: contain;
+  margin: 0;
+  padding: 0;
   border: none;
+  box-shadow: none;
 }
 
-.publication-info {
-  flex: 1;
+.yy-publication-content {
   min-width: 0;
 }
 
-.publication-title {
-  font-size: 1.08em;
-  font-weight: 600;
+.yy-publication-title {
+  margin: 0 0 9px 0;
+  font-size: 1.06em;
   line-height: 1.5;
-  margin-bottom: 10px;
+  font-weight: 600;
   color: #111;
 }
 
-.publication-authors {
-  margin-bottom: 9px;
+.yy-publication-authors {
+  margin: 0 0 7px 0;
   line-height: 1.6;
 }
 
-.publication-venue {
-  margin-bottom: 9px;
+.yy-publication-venue {
+  margin: 0 0 7px 0;
   line-height: 1.6;
 }
 
-.publication-links a {
+.yy-publication-links {
+  margin-top: 4px;
+  line-height: 1.6;
+}
+
+.yy-publication-links a {
+  display: inline-block;
   margin-right: 8px;
+  font-size: 0.95em;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.yy-publication-links a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 720px) {
-  .publication-item {
-    flex-direction: column;
-    align-items: flex-start;
+  .yy-publication {
+    grid-template-columns: 1fr;
+    row-gap: 14px;
+    align-items: start;
   }
 
-  .publication-image {
+  .yy-publication-teaser {
     width: 100%;
-    max-width: 300px;
-    flex: none;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .yy-publication-teaser img {
+    max-width: 280px;
+    max-height: 180px;
   }
 }
 
@@ -345,167 +337,309 @@ description: Lecturer, Anhui University of Science & Technology
   <div class="section" id="publications">
     <h2>Selected Publications</h2>
 
-    <div class="publication-item">
-      <div class="publication-image">
-        <img src="{{ '/assets/publications/2026-cag-mccnpd/teaser.png' | relative_url }}" alt="MCCNPD">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2026-cag-mccnpd/teaser.png' | relative_url }}" alt="Network Power Diagrams">
       </div>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        Network Power Diagrams with Maximum-Capacity Constraints for Embedded Network Partitioning
-      </div>
-      <div class="publication-authors">
-        <strong>Yuyou Yao</strong><sup>#</sup>, Shouyan Xia, Ensheng Liu, Chengjie Gu
-      </div>
-      <div class="publication-venue">
-        <em>Computers & Graphics</em>, 2026, 140: 104735.
-      </div>
-      <div class="publication-links">
-        <a href="{{ '/assets/publications/2026-cag-mccnpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-      </div>
-    </div>
-
-    <ol class="pub-list">
-
-      <li class="pub-item">
-        <strong>Yuyou Yao</strong><sup>#</sup>, Shouyan Xia, Ensheng Liu, Chengjie Gu. 
-        <span class="pub-title">Network Power Diagrams with Maximum-Capacity Constraints for Embedded Network Partitioning.</span>
-        <em>Computers & Graphics</em>, 2026, 140: 104735.
-        <span class="pub-links">
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          Network Power Diagrams with Maximum-Capacity Constraints for Embedded Network Partitioning
+        </div>
+        <div class="yy-publication-authors">
+          <strong>Yuyou Yao</strong><sup>#</sup>, Shouyan Xia, Ensheng Liu, Chengjie Gu
+        </div>
+        <div class="yy-publication-venue">
+          <em>Computers &amp; Graphics</em>, 2026, 140: 104735.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2026-cag-mccnpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        Yue Fei, Jingjing Liu, <strong>Yuyou Yao</strong>, Yusheng Peng, Liping Zheng<sup>#</sup>.
-        <span class="pub-title">A Remeshing Method via Adaptive Multiple Original-Facet-Clipping and Centroidal Voronoi Tessellation.</span>
-        <em>2026 International Conference on 3D Vision (3DV)</em>, 2026, 1588-1597.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2026-3dv-remeshing/teaser.png' | relative_url }}" alt="Adaptive Remeshing">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          A Remeshing Method via Adaptive Multiple Original-Facet-Clipping and Centroidal Voronoi Tessellation
+        </div>
+        <div class="yy-publication-authors">
+          Yue Fei, Jingjing Liu, <strong>Yuyou Yao</strong>, Yusheng Peng, Liping Zheng<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>2026 International Conference on 3D Vision (3DV)</em>, 2026, 1588-1597.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2026-3dv-remeshing/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        Dongyue Zhao, Qian Chen, <strong>Yuyou Yao</strong>, Yunhe Tong<sup>#</sup>.
-        <span class="pub-title">A Candidate-Free Location Optimization Framework for Gas Repair Stations Under Stochastic Road Resistance Conditions.</span>
-        <em>Urban Science</em>, 2026, 10(6): 303.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2026-uc-location/teaser.png' | relative_url }}" alt="Gas Repair Station Location Optimization">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          A Candidate-Free Location Optimization Framework for Gas Repair Stations Under Stochastic Road Resistance Conditions
+        </div>
+        <div class="yy-publication-authors">
+          Dongyue Zhao, Qian Chen, <strong>Yuyou Yao</strong>, Yunhe Tong<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>Urban Science</em>, 2026, 10(6): 303.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2026-uc-location/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        <strong>Yuyou Yao</strong><sup>#</sup>, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng.
-        <span class="pub-title">A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram.</span>
-        <em>Communications in Information and Systems</em>, 2025, 25(1): 155–178.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2025-cis-mccpd/teaser.png' | relative_url }}" alt="Bi-level MCCPD">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          A heuristic computation method of the bi-level maximal capacity constrained centroidal power diagram
+        </div>
+        <div class="yy-publication-authors">
+          <strong>Yuyou Yao</strong><sup>#</sup>, Boning Liu, Ensheng Liu, Dongjun Zhu, Chengjie Gu, Liping Zheng
+        </div>
+        <div class="yy-publication-venue">
+          <em>Communications in Information and Systems</em>, 2025, 25(1): 155–178.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2025-cis-mccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng<sup>#</sup>.
-        <span class="pub-title">PowerHierarchy: visualization approach of hierarchical data via power diagram.</span>
-        <em>The Visual Computer</em>, 2024, 40(3): 1499–1514.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2024-tvc-powerhierarchy/teaser.png' | relative_url }}" alt="PowerHierarchy">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          PowerHierarchy: visualization approach of hierarchical data via power diagram
+        </div>
+        <div class="yy-publication-authors">
+          <strong>Yuyou Yao</strong>, Tao Li, Wenming Wu, Gaofeng Zhang, Liping Zheng<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>The Visual Computer</em>, 2024, 40(3): 1499–1514.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2024-tvc-powerhierarchy/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-          <a href="https://link.springer.com/article/10.1007/s00371-023-02864-4" target="_blank" rel="noopener">[video]</a>
-        </span>
-      </li>
+          <a href="{{ '/assets/publications/2024-tvc-powerhierarchy/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        Dongjun Zhu, Chengjie Gu, Junjun Zhang, <strong>Yuyou Yao</strong>, Dayu Tan.
-        <span class="pub-title">Global-Margin Uncertainty and Collaborative Sampling for Active Learning in Complex Aerial Images Object Detection.</span>
-        <em>IEEE Geoscience and Remote Sensing Letters</em>, 2024, 21: 1–5.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2024-lgrs-activelearning/teaser.png' | relative_url }}" alt="Active Learning for Aerial Image Object Detection">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          Global-Margin Uncertainty and Collaborative Sampling for Active Learning in Complex Aerial Images Object Detection
+        </div>
+        <div class="yy-publication-authors">
+          Dongjun Zhu, Chengjie Gu, Junjun Zhang, <strong>Yuyou Yao</strong>, Dayu Tan
+        </div>
+        <div class="yy-publication-venue">
+          <em>IEEE Geoscience and Remote Sensing Letters</em>, 2024, 21: 1–5.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2024-lgrs-activelearning/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        Jingjing Liu, <strong>Yuyou Yao</strong>, Yue Fei, Gaofeng Zhang, Liping Zheng<sup>#</sup>.
-        <span class="pub-title">Surface remeshing with preservation of sharp features through iterative identification and optimization of sample points.</span>
-        <em>Computers &amp; Graphics</em>, 2024, 121: 103949.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2024-cag-sharpfeatures/teaser.png' | relative_url }}" alt="Surface Remeshing with Sharp Features">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          Surface remeshing with preservation of sharp features through iterative identification and optimization of sample points
+        </div>
+        <div class="yy-publication-authors">
+          Jingjing Liu, <strong>Yuyou Yao</strong>, Yue Fei, Gaofeng Zhang, Liping Zheng<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>Computers &amp; Graphics</em>, 2024, 121: 103949.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2024-cag-sharpfeatures/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong-Ming Yan, Liping Zheng<sup>#</sup>.
-        <span class="pub-title">PowerRTF: Power diagram based restricted tangent face for surface remeshing.</span>
-        <em>Computer Graphics Forum</em>, 2023, 42(5): e14897.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2023-cgf-powerrtf/teaser.png' | relative_url }}" alt="PowerRTF">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          PowerRTF: Power diagram based restricted tangent face for surface remeshing
+        </div>
+        <div class="yy-publication-authors">
+          <strong>Yuyou Yao</strong>, Jingjing Liu, Yue Fei, Wenming Wu, Gaofeng Zhang, Dong-Ming Yan, Liping Zheng<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>Computer Graphics Forum</em>, 2023, 42(5): e14897.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2023-cgf-powerrtf/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-          <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14897" target="_blank" rel="noopener">[video]</a>
-        </span>
-      </li>
+          <a href="{{ '/assets/publications/2023-cgf-powerrtf/video.mp4' | relative_url }}" target="_blank" rel="noopener">[video]</a>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>#</sup>.
-        <span class="pub-title">Accelerating surface remeshing through GPU-based computation of the restricted tangent face.</span>
-        <em>Computer Aided Geometric Design</em>, 2023, 104: 102216.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2023-cagd-rtf/teaser.png' | relative_url }}" alt="GPU Restricted Tangent Face Remeshing">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          Accelerating surface remeshing through GPU-based computation of the restricted tangent face
+        </div>
+        <div class="yy-publication-authors">
+          <strong>Yuyou Yao</strong>, Jingjing Liu, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>Computer Aided Geometric Design</em>, 2023, 104: 102216.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2023-cagd-rtf/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        <strong>Yuyou Yao</strong>, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>#</sup>.
-        <span class="pub-title">Power diagram based algorithm for the facility location and capacity acquisition problem with dense demand.</span>
-        <em>Frontiers of Computer Science</em>, 2022, 16(6): 166709.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2022-fcs-powerlap/teaser.png' | relative_url }}" alt="Power Diagram Facility Location">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          Power diagram based algorithm for the facility location and capacity acquisition problem with dense demand
+        </div>
+        <div class="yy-publication-authors">
+          <strong>Yuyou Yao</strong>, Wenming Wu, Gaofeng Zhang, Benzhu Xu, Liping Zheng<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>Frontiers of Computer Science</em>, 2022, 16(6): 166709.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2022-fcs-powerlap/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
           <a href="{{ '/assets/publications/2022-fcs-powerlap/supplementary.zip' | relative_url }}" target="_blank" rel="noopener">[supplementary]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        Tao Li, <strong>Yuyou Yao</strong>, Wenming Wu, Liping Zheng<sup>#</sup>.
-        <span class="pub-title">Pixelated Image Abstraction via Power Diagram.</span>
-        <em>Proceedings of 2022 Asian Simulation Conference</em>, 2022: 60–74.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2022-asiansim-powerpixelated/teaser.png' | relative_url }}" alt="Pixelated Image Abstraction">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          Pixelated Image Abstraction via Power Diagram
+        </div>
+        <div class="yy-publication-authors">
+          Tao Li, <strong>Yuyou Yao</strong>, Wenming Wu, Liping Zheng<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>Proceedings of 2022 Asian Simulation Conference</em>, 2022: 60–74.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2022-asiansim-powerpixelated/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        Liping Zheng, <strong>Yuyou Yao</strong>, Wenming Wu, Benzhu Xu, Gaofeng Zhang<sup>#</sup>.
-        <span class="pub-title">A novel computation method of hybrid capacity constrained centroidal power diagram.</span>
-        <em>Computers &amp; Graphics</em>, 2021, 97: 108–116.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2021-cag-hcccpd/teaser.png' | relative_url }}" alt="Hybrid Capacity Constrained Centroidal Power Diagram">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          A novel computation method of hybrid capacity constrained centroidal power diagram
+        </div>
+        <div class="yy-publication-authors">
+          Liping Zheng, <strong>Yuyou Yao</strong>, Wenming Wu, Benzhu Xu, Gaofeng Zhang<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>Computers &amp; Graphics</em>, 2021, 97: 108–116.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2021-cag-hcccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>.
-        <span class="pub-title">变容量限制质心Power图的计算.</span>
-        <em>图学学报</em>, 2021, 42(3): 492–500.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2021-jog-vcccpd/teaser.png' | relative_url }}" alt="Variable Capacity Constrained Centroidal Power Diagram">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          变容量限制质心Power图的计算
+        </div>
+        <div class="yy-publication-authors">
+          <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>图学学报</em>, 2021, 42(3): 492–500.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2021-jog-vcccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        桂志强, <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>.
-        <span class="pub-title">3D-Power图的快速生成方法.</span>
-        <em>浙江大学学报（理学版）</em>, 2021, 48(4): 410–417.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2021-zjtu-3dpower/teaser.png' | relative_url }}" alt="3D Power Diagram">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          3D-Power图的快速生成方法
+        </div>
+        <div class="yy-publication-authors">
+          桂志强, <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>浙江大学学报（理学版）</em>, 2021, 48(4): 410–417.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2021-zjtu-3dpower/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-      <li class="pub-item">
-        费月, 桂志强, <strong>姚裕友</strong>, 徐本柱, 郑利平<sup>#</sup>.
-        <span class="pub-title">面状LED发光体灯珠分布和组合连接优化算法.</span>
-        <em>系统仿真学报</em>, 2020, 32(12): 2317–2323.
-        <span class="pub-links">
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <img src="{{ '/assets/publications/2020-jos-powerled/teaser.png' | relative_url }}" alt="Power LED Optimization">
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          面状LED发光体灯珠分布和组合连接优化算法
+        </div>
+        <div class="yy-publication-authors">
+          费月, 桂志强, <strong>姚裕友</strong>, 徐本柱, 郑利平<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>系统仿真学报</em>, 2020, 32(12): 2317–2323.
+        </div>
+        <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2020-jos-powerled/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
-        </span>
-      </li>
+        </div>
+      </div>
+    </div>
 
-    </ol>
   </div>
 
   <div class="section" id="graduate-students">
