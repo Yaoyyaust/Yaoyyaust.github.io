@@ -149,6 +149,67 @@ description: Lecturer, Anhui University of Science & Technology
   font-size: 0.95em;
 }
 
+.publication-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 34px;
+}
+
+.publication-image {
+  flex: 0 0 245px;
+  width: 245px;
+  text-align: center;
+}
+
+.publication-image img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  border: none;
+}
+
+.publication-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-title {
+  font-size: 1.08em;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.publication-authors {
+  margin-bottom: 9px;
+  line-height: 1.6;
+}
+
+.publication-venue {
+  margin-bottom: 9px;
+  line-height: 1.6;
+}
+
+.publication-links a {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+@media (max-width: 720px) {
+  .publication-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .publication-image {
+    width: 100%;
+    max-width: 300px;
+    flex: none;
+  }
+}
+
 .project-item {
   margin-bottom: 14px;
 }
@@ -282,7 +343,27 @@ description: Lecturer, Anhui University of Science & Technology
   </div>
 
   <div class="section" id="publications">
-    <h2>Publications</h2>
+    <h2>Selected Publications</h2>
+
+    <div class="publication-item">
+      <div class="publication-image">
+        <img src="{{ '/assets/publications/2026-cag-mccnpd/teaser.png' | relative_url }}" alt="MCCNPD">
+      </div>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        Network Power Diagrams with Maximum-Capacity Constraints for Embedded Network Partitioning
+      </div>
+      <div class="publication-authors">
+        <strong>Yuyou Yao</strong><sup>#</sup>, Shouyan Xia, Ensheng Liu, Chengjie Gu
+      </div>
+      <div class="publication-venue">
+        <em>Computers & Graphics</em>, 2026, 140: 104735.
+      </div>
+      <div class="publication-links">
+        <a href="{{ '/assets/publications/2026-cag-mccnpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+      </div>
+    </div>
 
     <ol class="pub-list">
 
