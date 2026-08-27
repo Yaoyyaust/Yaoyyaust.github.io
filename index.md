@@ -120,6 +120,10 @@ description: Lecturer, Anhui University of Science & Technology
   column-gap: 28px;
   align-items: center;
   margin-bottom: 34px;
+
+  /* Skip rendering off-screen publication items until they approach the viewport. */
+  content-visibility: auto;
+  contain-intrinsic-size: 230px 190px;
 }
 
 .yy-publication-teaser {
@@ -129,6 +133,14 @@ description: Lecturer, Anhui University of Science & Technology
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.yy-publication-teaser picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .yy-publication-teaser img {
@@ -188,6 +200,7 @@ description: Lecturer, Anhui University of Science & Technology
     grid-template-columns: 1fr;
     row-gap: 14px;
     align-items: start;
+    contain-intrinsic-size: 300px 330px;
   }
 
   .yy-publication-teaser {
@@ -247,7 +260,7 @@ description: Lecturer, Anhui University of Science & Technology
 
   <div class="profile-header">
 
-    <img src="{{ '/assets/images/yaoyy.jpg' | relative_url }}" alt="Yuyou Yao" class="profile-photo">
+    <img src="{{ '/assets/images/yaoyy.jpg' | relative_url }}" alt="Yuyou Yao" class="profile-photo" decoding="async" fetchpriority="high">
 
     <div class="profile-info">
       <h1>Yuyou Yao（姚裕友）</h1>
@@ -339,7 +352,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2026-cag-mccnpd/teaser.png' | relative_url }}" alt="Network Power Diagrams">
+        <picture>
+          <source srcset="{{ '/assets/publications/2026-cag-mccnpd/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2026-cag-mccnpd/teaser.png' | relative_url }}" alt="Network Power Diagrams" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -359,7 +375,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2026-3dv-remeshing/teaser.png' | relative_url }}" alt="Adaptive Remeshing">
+        <picture>
+          <source srcset="{{ '/assets/publications/2026-3dv-remeshing/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2026-3dv-remeshing/teaser.png' | relative_url }}" alt="Adaptive Remeshing" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -379,7 +398,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2026-uc-location/teaser.png' | relative_url }}" alt="Gas Repair Station Location Optimization">
+        <picture>
+          <source srcset="{{ '/assets/publications/2026-uc-location/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2026-uc-location/teaser.png' | relative_url }}" alt="Gas Repair Station Location Optimization" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -399,7 +421,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2025-cis-mccpd/teaser.png' | relative_url }}" alt="Bi-level MCCPD">
+        <picture>
+          <source srcset="{{ '/assets/publications/2025-cis-mccpd/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2025-cis-mccpd/teaser.png' | relative_url }}" alt="Bi-level MCCPD" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -419,7 +444,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2024-tvc-powerhierarchy/teaser.png' | relative_url }}" alt="PowerHierarchy">
+        <picture>
+          <source srcset="{{ '/assets/publications/2024-tvc-powerhierarchy/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2024-tvc-powerhierarchy/teaser.png' | relative_url }}" alt="PowerHierarchy" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -440,7 +468,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2024-lgrs-activelearning/teaser.png' | relative_url }}" alt="Active Learning for Aerial Image Object Detection">
+        <picture>
+          <source srcset="{{ '/assets/publications/2024-lgrs-activelearning/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2024-lgrs-activelearning/teaser.png' | relative_url }}" alt="Active Learning for Aerial Image Object Detection" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -460,7 +491,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2024-cag-sharpfeatures/teaser.png' | relative_url }}" alt="Surface Remeshing with Sharp Features">
+        <picture>
+          <source srcset="{{ '/assets/publications/2024-cag-sharpfeatures/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2024-cag-sharpfeatures/teaser.png' | relative_url }}" alt="Surface Remeshing with Sharp Features" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -480,7 +514,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2023-cgf-powerrtf/teaser.png' | relative_url }}" alt="PowerRTF">
+        <picture>
+          <source srcset="{{ '/assets/publications/2023-cgf-powerrtf/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2023-cgf-powerrtf/teaser.png' | relative_url }}" alt="PowerRTF" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -501,7 +538,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2023-cagd-rtf/teaser.png' | relative_url }}" alt="GPU Restricted Tangent Face Remeshing">
+        <picture>
+          <source srcset="{{ '/assets/publications/2023-cagd-rtf/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2023-cagd-rtf/teaser.png' | relative_url }}" alt="GPU Restricted Tangent Face Remeshing" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -521,7 +561,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2022-fcs-powerlap/teaser.png' | relative_url }}" alt="Power Diagram Facility Location">
+        <picture>
+          <source srcset="{{ '/assets/publications/2022-fcs-powerlap/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2022-fcs-powerlap/teaser.png' | relative_url }}" alt="Power Diagram Facility Location" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -542,7 +585,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2022-asiansim-powerpixelated/teaser.png' | relative_url }}" alt="Pixelated Image Abstraction">
+        <picture>
+          <source srcset="{{ '/assets/publications/2022-asiansim-powerpixelated/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2022-asiansim-powerpixelated/teaser.png' | relative_url }}" alt="Pixelated Image Abstraction" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -562,7 +608,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <div class="yy-publication">
       <div class="yy-publication-teaser">
-        <img src="{{ '/assets/publications/2021-cag-hcccpd/teaser.png' | relative_url }}" alt="Hybrid Capacity Constrained Centroidal Power Diagram">
+        <picture>
+          <source srcset="{{ '/assets/publications/2021-cag-hcccpd/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2021-cag-hcccpd/teaser.png' | relative_url }}" alt="Hybrid Capacity Constrained Centroidal Power Diagram" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="yy-publication-content">
         <div class="yy-publication-title">
@@ -576,6 +625,75 @@ description: Lecturer, Anhui University of Science & Technology
         </div>
         <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2021-cag-hcccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <picture>
+          <source srcset="{{ '/assets/publications/2021-jog-vcccpd/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2021-jog-vcccpd/teaser.png' | relative_url }}" alt="Variable Capacity Constrained Centroidal Power Diagram" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          变容量限制质心Power图的计算
+        </div>
+        <div class="yy-publication-authors">
+          <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>图学学报</em>, 2021, 42(3): 492–500.
+        </div>
+        <div class="yy-publication-links">
+          <a href="{{ '/assets/publications/2021-jog-vcccpd/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <picture>
+          <source srcset="{{ '/assets/publications/2021-zjtu-3dpower/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2021-zjtu-3dpower/teaser.png' | relative_url }}" alt="3D Power Diagram" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          3D-Power图的快速生成方法
+        </div>
+        <div class="yy-publication-authors">
+          桂志强, <strong>姚裕友</strong>, 张高峰, 徐本柱, 郑利平<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>浙江大学学报（理学版）</em>, 2021, 48(4): 410–417.
+        </div>
+        <div class="yy-publication-links">
+          <a href="{{ '/assets/publications/2021-zjtu-3dpower/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="yy-publication">
+      <div class="yy-publication-teaser">
+        <picture>
+          <source srcset="{{ '/assets/publications/2020-jos-powerled/teaser.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/publications/2020-jos-powerled/teaser.png' | relative_url }}" alt="Power LED Optimization" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="yy-publication-content">
+        <div class="yy-publication-title">
+          面状LED发光体灯珠分布和组合连接优化算法
+        </div>
+        <div class="yy-publication-authors">
+          费月, 桂志强, <strong>姚裕友</strong>, 徐本柱, 郑利平<sup>#</sup>
+        </div>
+        <div class="yy-publication-venue">
+          <em>系统仿真学报</em>, 2020, 32(12): 2317–2323.
+        </div>
+        <div class="yy-publication-links">
+          <a href="{{ '/assets/publications/2020-jos-powerled/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
         </div>
       </div>
     </div>
