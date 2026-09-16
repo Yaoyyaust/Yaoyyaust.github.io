@@ -354,7 +354,7 @@ description: Lecturer, Anhui University of Science & Technology
       <div class="yy-publication-teaser">
         <picture>
           <source srcset="{{ '/assets/publications/2026-cag-navigation/teaser.webp' | relative_url }}" type="image/webp">
-          <img src="{{ '/assets/publications/2026-cag-navigation/teaser.png' | relative_url }}" alt="Network Power Diagrams" loading="lazy" decoding="async">
+          <img src="{{ '/assets/publications/2026-cag-navigation/teaser.png' | relative_url }}" alt="Power Diagram Navigation" loading="lazy" decoding="async">
         </picture>
       </div>
       <div class="yy-publication-content">
@@ -365,7 +365,7 @@ description: Lecturer, Anhui University of Science & Technology
           <strong>Yuyou Yao</strong>, Shouyan Xia, Fanxu Meng, Ensheng Liu<sup>#</sup>, Chengjie Gu, Liping Zheng
         </div>
         <div class="yy-publication-venue">
-          (Conditional Accepted by CAD/Graphics 2026, Full Paper Recommendation to Computers & Graphics)
+          (Conditional Accepted by CAD/Graphics 2026, Full Paper Recommendation to Visual Informatics)
         </div>
         <div class="yy-publication-links">
           <a href="{{ '/assets/publications/2026-cag-navigation/paper.pdf' | relative_url }}" target="_blank" rel="noopener">[paper]</a>
