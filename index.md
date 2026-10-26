@@ -743,7 +743,10 @@ description: Lecturer, Anhui University of Science & Technology
 
     <ul class="student-list">
       <li>
-        中国国际大学生创新大赛，2025，省级银奖 (项目负责人：刘博宁)
+        安途智选——城市应急避难智能决策领航者，中国国际大学生创新大赛，2025，省级银奖 (项目负责人：刘博宁)
+      </li>
+      <li>
+        万境归安——火患智策应急避难先锋者，中国国际大学生创新大赛，2026，省级铜奖（项目负责人：孟繁旭）
       </li>
     </ul>
   </div>
